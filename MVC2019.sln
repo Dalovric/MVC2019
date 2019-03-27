@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication_osnove", "WebApplication_osnove\WebApplication_osnove.csproj", "{B49C5249-41F4-4CCF-8C15-9BCCE487D3A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsPrimjer", "WebFormsPrimjer\WebFormsPrimjer.csproj", "{85EB92C2-D369-4C2A-8475-82B088F083DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{F48337F2-CB7B-4F91-97C0-CB775FD2D89F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B49C5249-41F4-4CCF-8C15-9BCCE487D3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B49C5249-41F4-4CCF-8C15-9BCCE487D3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B49C5249-41F4-4CCF-8C15-9BCCE487D3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85EB92C2-D369-4C2A-8475-82B088F083DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85EB92C2-D369-4C2A-8475-82B088F083DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85EB92C2-D369-4C2A-8475-82B088F083DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85EB92C2-D369-4C2A-8475-82B088F083DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F48337F2-CB7B-4F91-97C0-CB775FD2D89F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48337F2-CB7B-4F91-97C0-CB775FD2D89F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48337F2-CB7B-4F91-97C0-CB775FD2D89F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48337F2-CB7B-4F91-97C0-CB775FD2D89F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
