@@ -168,6 +168,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Kontekst\Index.cshtml" />
     <Content Include="Views\Kontekst\QueryPodaci.cshtml" />
+    <Content Include="Views\Kontekst\RoutePodaci.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

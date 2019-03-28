@@ -30,5 +30,23 @@ namespace MVC3_1_1.Controllers
             }
         }
 
+        public string RoutePodaci()
+        {
+            try
+            {
+                string kontroler = RouteData.Values["controller"].ToString();
+                string akcijskaMetoda = RouteData.Values["action"].ToString();
+                string parametarId = RouteData.Values["id"].ToString();
+                return "<h1>Route podaci:</h1>" +
+                    "Kontroler: " + kontroler + "<br/>" +
+                    "Metoda: " + akcijskaMetoda + "<br/>" +
+                    "Parametar ID: " + parametarId + "<br/>";
+            }
+            catch(Exception e)
+            {
+                return "Doslo je do pogreske: " + e.Message;
+            }
+            }
+
     }
 }
