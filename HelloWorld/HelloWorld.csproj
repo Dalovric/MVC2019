@@ -200,6 +200,7 @@
     <Content Include="Views\Osobe\PrikaziOsobu.cshtml" />
     <Content Include="Views\RazorSintaksa\ViewZaForPetlju.cshtml" />
     <Content Include="Views\RazorSintaksa\SwitchView.cshtml" />
+    <Content Include="Views\Shared\PosebniLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

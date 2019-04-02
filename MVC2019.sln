@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.1.1_broj_godina", "4.1.1_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.2.1_narudzba", "4.2.1_narudzba\4.2.1_narudzba.csproj", "{FE31C0BD-4975-4E07-B8B9-8332173922B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_3_vj", "5_3_vj\5_3_vj.csproj", "{043B579A-ACF8-47E9-87E0-945E80BC13AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{FE31C0BD-4975-4E07-B8B9-8332173922B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE31C0BD-4975-4E07-B8B9-8332173922B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE31C0BD-4975-4E07-B8B9-8332173922B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{043B579A-ACF8-47E9-87E0-945E80BC13AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{043B579A-ACF8-47E9-87E0-945E80BC13AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{043B579A-ACF8-47E9-87E0-945E80BC13AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{043B579A-ACF8-47E9-87E0-945E80BC13AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
