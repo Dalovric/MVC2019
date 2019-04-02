@@ -9,7 +9,7 @@ namespace _4._2._1_narudzba.Models
     {
         public string Kategorija { get; set; }
         public string Naziv { get; set; }
-        public string Cijena { get; set; }
-        public string Kolicina { get; set; }
+        public decimal Cijena { get; set; }
+        public int Kolicina { get; set; }
     }
 }
