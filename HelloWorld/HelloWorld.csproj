@@ -146,6 +146,7 @@
     <Compile Include="Controllers\OsobeController.cs" />
     <Compile Include="Controllers\PozdravSvijeteController.cs" />
     <Compile Include="Controllers\PrviController.cs" />
+    <Compile Include="Controllers\RazorSintaksaController.cs" />
     <Compile Include="Controllers\SimpleBindingController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -197,6 +198,8 @@
     <Content Include="Views\SimpleBinding\SimpleBindMetoda.cshtml" />
     <Content Include="Views\Osobe\PopuniOsobu.cshtml" />
     <Content Include="Views\Osobe\PrikaziOsobu.cshtml" />
+    <Content Include="Views\RazorSintaksa\ViewZaForPetlju.cshtml" />
+    <Content Include="Views\RazorSintaksa\SwitchView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

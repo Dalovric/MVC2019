@@ -1,0 +1,53 @@
+﻿@model string[]
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewZaForPetlju</title>
+</head>
+<body>
+    <div>
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li>@item</li>
+
+            }
+        </ul>
+
+        <ul>
+            @for (int i = 0; i < Model.Length; i++)
+            {
+                <li>@Model[i]</li>
+            }
+            @* Ovo je komentar*@
+        </ul>
+        
+        @{ 
+            int j = Model.Length-1;
+        }
+        <ul>
+            @while (j >= 0)
+            {
+                <li>@Model[j]</li>
+                j--;
+            }
+        </ul>
+        @{
+            int k = 0;
+        }
+        <ul>
+            @while (k < Model.Length)
+            {
+                <li>@Model[k]</li>
+                k++;
+            }
+        </ul>
+    </div>
+</body>
+</html>
