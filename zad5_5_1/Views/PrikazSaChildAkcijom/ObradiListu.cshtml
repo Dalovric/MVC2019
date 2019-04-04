@@ -1,0 +1,50 @@
+﻿@using _4._2._1_narudzba.Models
+@model List<Artikal>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ObradiListu</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse:collapse;
+        }
+        th, td {
+            padding: 10px;
+        }
+        #tArtikli tr:nth-child(even){
+            background-color: #eee;
+        }
+        #tArtikli th {
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table id="tArtikli">
+            <caption>Lista artikala</caption>
+            <tr>
+                <th>Naziv</th>
+                <th>Cijena</th>
+                <th>Kategorija</th>
+            </tr>
+            @foreach (Artikal item in Model)
+            {
+                <tr>
+                    <td>@item.Naziv</td>
+                    <td style="text-align:right;">@item.Cijena</td>
+                    <td>@Html.Action("OdrediKategoriju", item)</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

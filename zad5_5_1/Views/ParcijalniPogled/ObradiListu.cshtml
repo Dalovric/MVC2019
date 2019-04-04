@@ -1,0 +1,23 @@
+﻿@using _4._2._1_narudzba.Models
+@model List<Artikal>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ObradiListu</title>
+</head>
+<body>
+    <h3>Lista artikala:</h3>
+    <div>
+        @foreach (Artikal item in Model)
+        {
+            @Html.Partial("PrikaziArtikal", item)
+        }
+    </div>
+</body>
+</html>

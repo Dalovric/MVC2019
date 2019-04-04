@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.2.1_narudzba", "4.2.1_nar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_3_vj", "5_3_vj\5_3_vj.csproj", "{043B579A-ACF8-47E9-87E0-945E80BC13AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad5_5_1", "zad5_5_1\zad5_5_1.csproj", "{5C51C537-CDC5-43B3-8673-28595DC7B39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad6_1_1", "zad6_1_1\zad6_1_1.csproj", "{C8592CCC-05ED-427E-8F7E-7F531333AC15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{043B579A-ACF8-47E9-87E0-945E80BC13AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{043B579A-ACF8-47E9-87E0-945E80BC13AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{043B579A-ACF8-47E9-87E0-945E80BC13AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C51C537-CDC5-43B3-8673-28595DC7B39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C51C537-CDC5-43B3-8673-28595DC7B39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C51C537-CDC5-43B3-8673-28595DC7B39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C51C537-CDC5-43B3-8673-28595DC7B39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8592CCC-05ED-427E-8F7E-7F531333AC15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8592CCC-05ED-427E-8F7E-7F531333AC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8592CCC-05ED-427E-8F7E-7F531333AC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8592CCC-05ED-427E-8F7E-7F531333AC15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
