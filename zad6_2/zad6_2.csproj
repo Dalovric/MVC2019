@@ -93,11 +93,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\MetaDataHtmlHelperController.cs" />
     <Compile Include="Controllers\TempHtmlHelperiController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Adresa.cs" />
+    <Compile Include="Models\OsobaMeta.cs" />
     <Compile Include="Models\OsobaTemp1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -107,6 +109,7 @@
     <Content Include="Views\TempHtmlHelperi\HtmlEditorView.cshtml" />
     <Content Include="Views\TempHtmlHelperi\HtmlLabelDisplay.cshtml" />
     <Content Include="Views\TempHtmlHelperi\EditorModelView.cshtml" />
+    <Content Include="Views\MetaDataHtmlHelper\MetaDataView.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

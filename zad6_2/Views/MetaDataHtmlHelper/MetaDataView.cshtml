@@ -1,0 +1,29 @@
+﻿@model zad6_2.Models.OsobaMeta
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MetaDataView</title>
+</head>
+<body>
+    <h2>@Html.LabelForModel()</h2>
+    <div> 
+        @using (Html.BeginForm())
+        {
+            <div class="column">
+            @Html.EditorForModel()
+            </div>
+
+            <div class="column">
+                @Html.EditorFor(x => x.AdresaOsobe)
+            </div>
+            <input type="submit" value="Pošalji" />
+        }
+    </div>
+</body>
+</html>
