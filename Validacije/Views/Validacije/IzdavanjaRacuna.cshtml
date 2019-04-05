@@ -1,0 +1,53 @@
+﻿@model Validacije.Models.Racun
+@{
+    ViewBag.Title = "IzdavanjaRacuna";
+    Html.EnableClientValidation(false);
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>IzdavanjaRacuna</title>
+    <style>
+        label {
+            display: inline-block;
+            width: 150px;
+            margin: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Izdavanje racuna</h2>
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary()
+            <div>
+                <label>Broj racuna: </label>
+                @Html.EditorFor(x => x.BrojRacuna)
+            </div>
+            <div>
+                <label>Datum: </label>
+                @Html.EditorFor(x => x.Datum)
+            </div>
+            <div>
+                <label>Zaposlenik: </label>
+                @Html.EditorFor(x => x.Zaposlenik)
+            </div>
+            <div>
+                <label>Kupac: </label>
+                @Html.EditorFor(x => x.Kupac)
+            </div>
+            <div>
+                <label>Cijena: </label>
+                @Html.EditorFor(x => x.Cijena)
+            </div>
+            <input type="submit" value="Pošalji" />
+        }
+    </div>
+</body>
+</html>
