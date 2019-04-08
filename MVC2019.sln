@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad6_2", "zad6_2\zad6_2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validacije", "Validacije\Validacije.csproj", "{5E65FE8F-4A77-4A7E-BC77-10FEE6FE8C65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adonet_spajanje_na_bazu1", "Adonet_spajanje_na_bazu1\Adonet_spajanje_na_bazu1.csproj", "{F62DF13C-63B7-4BAD-8F71-B2C9210D8E00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{5E65FE8F-4A77-4A7E-BC77-10FEE6FE8C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E65FE8F-4A77-4A7E-BC77-10FEE6FE8C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E65FE8F-4A77-4A7E-BC77-10FEE6FE8C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F62DF13C-63B7-4BAD-8F71-B2C9210D8E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62DF13C-63B7-4BAD-8F71-B2C9210D8E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62DF13C-63B7-4BAD-8F71-B2C9210D8E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62DF13C-63B7-4BAD-8F71-B2C9210D8E00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
