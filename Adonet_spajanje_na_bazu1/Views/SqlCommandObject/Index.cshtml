@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        @ViewBag.Message
+    </div>
+    <div>
+        @Html.ActionLink("Kreiraj tecaj", "Create", "SqlCommandObject"): <br />
+        @Html.ActionLink("Uredi tecaj", "Edit", "SqlCommandObject"): <br />
+        @Html.ActionLink("Obrisi tecaj", "Delete", "SqlCommandObject"): <br />
+        @Html.ActionLink("Vrati broj tecaja", "Count", "SqlCommandObject"): <br />
+    </div>
+</body>
+</html>
