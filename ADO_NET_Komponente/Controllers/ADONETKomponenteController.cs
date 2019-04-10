@@ -68,6 +68,7 @@ namespace ADO_NET_Komponente.Controllers
                 conn.Dispose();
                 cm.Dispose();
             }
+        }
 
             [HttpGet]
         public ActionResult Details(int idPolaznik)
@@ -150,7 +151,7 @@ namespace ADO_NET_Komponente.Controllers
                     cmdText += "Insert into tblPolazici";
                     cmdText += "Ime, Prezime, Email, DatumRodjenja";
                     cmdText += "VALUES";
-                    cmdText += "('" + model.Ime + "','" + model.Prezime + "','" + model.Email + "',"model.DatumRodjenja.ToString("yyyy-MM-dd") + ")";
+                    cmdText += "('" + model.Ime + "','" + model.Prezime + "','" + model.Email + "',"+model.DatumRodjenja.ToString("yyyy-MM-dd") + ")";
 
                     //Kreiramo Command objekt i otvaramo vezu s bazom
                     SqlCommand cmd = new SqlCommand(cmdText, conn);
@@ -289,8 +290,9 @@ namespace ADO_NET_Komponente.Controllers
 
             catch (Exception ex)
             {
-                ViewBag.Message="Greška kod brisanja polaznika! Opis:" + ex.Message
+                ViewBag.Message = "Greška kod brisanja polaznika! Opis:" + ex.Message;
             }
+        
             finally
             {
                 if(conn.State == System.Data.ConnectionState.Open)

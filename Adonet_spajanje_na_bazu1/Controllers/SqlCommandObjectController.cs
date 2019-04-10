@@ -128,6 +128,7 @@ namespace Adonet_spajanje_na_bazu1.Controllers
             ViewBag.Message = "Broj tecajeva u bazi je: " + brojZapisa.ToString();
         }
 
-            return View("Index");
+        return View("Index");
 
-        }
+    }
+}
