@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validacije", "Validacije\Va
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adonet_spajanje_na_bazu1", "Adonet_spajanje_na_bazu1\Adonet_spajanje_na_bazu1.csproj", "{F62DF13C-63B7-4BAD-8F71-B2C9210D8E00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO_NET_Komponente", "ADO_NET_Komponente\ADO_NET_Komponente.csproj", "{3E3C7A78-B5FF-43E2-A8ED-25C2CCAED1A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{F62DF13C-63B7-4BAD-8F71-B2C9210D8E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F62DF13C-63B7-4BAD-8F71-B2C9210D8E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F62DF13C-63B7-4BAD-8F71-B2C9210D8E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E3C7A78-B5FF-43E2-A8ED-25C2CCAED1A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3C7A78-B5FF-43E2-A8ED-25C2CCAED1A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3C7A78-B5FF-43E2-A8ED-25C2CCAED1A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3C7A78-B5FF-43E2-A8ED-25C2CCAED1A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
