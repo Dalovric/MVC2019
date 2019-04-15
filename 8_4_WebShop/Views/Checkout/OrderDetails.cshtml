@@ -1,0 +1,44 @@
+﻿@model _8_4_WebShop.Models.NarudzbeDetalji
+
+<div>
+    <h4>NarudzbeDetalji</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NarudzbaId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NarudzbaId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProizvodId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProizvodId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Kolicina)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kolicina)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.JedCijena)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.JedCijena)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
