@@ -25,11 +25,11 @@ namespace _8_4_WebShop.Controllers
         {
             if (ModelState.IsValid)
             {
-            db.Korisnici.Add(korisnici);
+            db.Korisnicis.Add(korisnici);
             db.SaveChanges();
             return RedirectToAction("CreateOrder", korisnici);
             }
-        return View(korisnici)
+            return View(korisnici);
         }
 public ActionResult CreateOrder(Korisnici korisnici)
 {
@@ -38,7 +38,9 @@ public ActionResult CreateOrder(Korisnici korisnici)
     narudzba.DatumKreiranja = Convert.ToDateTime(DateTime.Now.ToString("yyyy-MM-dd"));
     narudzba.DatumVrijemeDostave = Convert.ToDateTime(DateTime.Now.AddDays(7).ToString("yyyy-MM-dd"));
     narudzba.JeDostavljeno = false;
-    db.Narudzbe.Add(narudzba);
+    narudzba.Prezime = korisnici.Prezime;
+    narudzba.Email = korisnici.Email;
+    db.Narudzbes.Add(narudzba);
     db.SaveChanges();
 
     int narudzbaId = narudzba.Id;
@@ -55,7 +57,7 @@ public ActionResult CreateOrder(Korisnici korisnici)
             detalji.ProizvodId = distItem;
             detalji.Kolicina = lstProizvodi.Where(x => x.Id == distItem).Count();
             detalji.JedCijena = lstProizvodi.Where(x => x.Id == distItem).FirstOrDefault().Cijena;
-            db.NarudzbeDetalji.Add(detalji);
+            db.NarudzbeDetaljis.Add(detalji);
             db.SaveChanges();
         }
 
@@ -68,14 +70,14 @@ public ActionResult CreateOrder(Korisnici korisnici)
 public ActionResult OrderDetails()
 {
     int id = int.Parse(Session["narudzbaId"].ToString());
-    Narudzbe narudzba = db.Narudzbe.Find(id);
+    Narudzbe narudzba = db.Narudzbes.Find(id);
 
     if (narudzba == null)
     {
         return HttpNotFound();
     }
 
-    List<NarudzbeDetalji> lstDetalji = (from detalji in db.NarudzbeDetalji where detalji.NarudzbaId == id select detalji).ToList();
+    List<NarudzbeDetalji> lstDetalji = (from detalji in db.NarudzbeDetaljis where detalji.NarudzbaId == id select detalji).ToList();
     ViewBag.Detalji = lstDetalji;
     return View(narudzba);
 }
