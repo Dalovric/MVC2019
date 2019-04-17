@@ -81,25 +81,10 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Connected Services\KontaktService\Adresar.WcfService.KontaktService.Kontakt.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <None Include="Connected Services\KontaktService\KontaktService.disco" />
-    <None Include="Connected Services\KontaktService\configuration91.svcinfo" />
-    <None Include="Connected Services\KontaktService\configuration.svcinfo" />
-    <None Include="Connected Services\KontaktService\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
     <Content Include="KontaktService.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\KontaktService\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
     <Compile Include="IKontaktService.cs" />
     <Compile Include="KontaktService.svc.cs">
       <DependentUpon>KontaktService.svc</DependentUpon>
@@ -113,16 +98,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <None Include="Connected Services\KontaktService\KontaktService.wsdl" />
-    <None Include="Connected Services\KontaktService\KontaktService.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\KontaktService\KontaktService1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\KontaktService\KontaktService2.xsd">
-      <SubType>Designer</SubType>
-    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -132,9 +107,6 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\KontaktService\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

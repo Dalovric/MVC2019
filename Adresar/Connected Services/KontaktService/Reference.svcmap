@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="52eb89c1-0c25-40de-a942-d3efaf870e4b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5f22fa72-6841-4245-b60a-b94e49104454" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,11 +22,11 @@
     <MetadataSource Address="http://localhost:53511/KontaktService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="KontaktService.xsd" MetadataType="Schema" ID="a5eb3b9b-81bb-453b-bfd0-10abcac7e82f" SourceId="1" SourceUrl="http://localhost:53511/KontaktService.svc?xsd=xsd0" />
-    <MetadataFile FileName="KontaktService.wsdl" MetadataType="Wsdl" ID="c39d6443-ce6c-48c1-9b20-6f9546c7a489" SourceId="1" SourceUrl="http://localhost:53511/KontaktService.svc?wsdl" />
-    <MetadataFile FileName="KontaktService1.xsd" MetadataType="Schema" ID="a6b6a6a1-eff4-4f08-82d2-c5b5bac8ecff" SourceId="1" SourceUrl="http://localhost:53511/KontaktService.svc?xsd=xsd2" />
-    <MetadataFile FileName="KontaktService2.xsd" MetadataType="Schema" ID="41f88038-8f8b-400f-9b00-6ddea9ab7d86" SourceId="1" SourceUrl="http://localhost:53511/KontaktService.svc?xsd=xsd1" />
-    <MetadataFile FileName="KontaktService.disco" MetadataType="Disco" ID="a019c94a-6dfa-434c-8505-11f94492b922" SourceId="1" SourceUrl="http://localhost:53511/KontaktService.svc?disco" />
+    <MetadataFile FileName="KontaktService.xsd" MetadataType="Schema" ID="f796f650-4e14-46e3-9ccd-095398a7898f" SourceId="1" SourceUrl="http://localhost:53511/KontaktService.svc?xsd=xsd0" />
+    <MetadataFile FileName="KontaktService.wsdl" MetadataType="Wsdl" ID="6a989468-d04f-45cb-9d65-8c510f4b1f38" SourceId="1" SourceUrl="http://localhost:53511/KontaktService.svc?wsdl" />
+    <MetadataFile FileName="KontaktService1.xsd" MetadataType="Schema" ID="fc0d4fc9-ef34-4d5b-bb7b-42e1a53f41d3" SourceId="1" SourceUrl="http://localhost:53511/KontaktService.svc?xsd=xsd2" />
+    <MetadataFile FileName="KontaktService2.xsd" MetadataType="Schema" ID="27a32f1e-2687-4204-893c-381296427d9b" SourceId="1" SourceUrl="http://localhost:53511/KontaktService.svc?xsd=xsd1" />
+    <MetadataFile FileName="KontaktService.disco" MetadataType="Disco" ID="10206a68-d03a-4807-b53e-a365bd5e0992" SourceId="1" SourceUrl="http://localhost:53511/KontaktService.svc?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
